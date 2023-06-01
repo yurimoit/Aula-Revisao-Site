@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    padding: 20px 350px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.margin ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+.margin ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(40, 138, 40);
+    font-weight: 500;
+}
+
+aside {
+    background-color: green;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+aside p {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+
+aside span {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgba(235, 227, 227, 0.6);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 90px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+main div {
+    width: 700px;
+    height: 700px;
+    padding-top: 20px;
+}
+
+#bonsai {
+    width: 800px;
+    height: 800px;
+    padding-top: 10px;
+}
+
+main div span {
+    color: green;
+    font-family: sans-serif;
+}
+
+main div button {
+    background-color: rgb(62, 187, 62);
+    width: 75%;
+    height: 15%;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.container1 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 div {
+    margin-right: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container1 p {
+    font-size: 22px;
+}
+
+.container1 img {
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    margin-right: 50px;
+}
+
+.container2 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.div2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg p {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    border: 5px solid rgb(51, 199, 51);
+
+    margin: 0px 350px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    gap: 50px;
+    width: 47%;
+    height: 850px;
+    margin-top: 20px;
+
+}
+
+.contatodiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input input {
+    height: 70px;
+    background-color: #D9d9d9;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 4px solid rgb(156, 154, 154);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#idinput {
+    height: 200px;
+    background-color: #D9d9d9;
+    border-bottom: 4px solid rgb(156, 154, 154);
+    border-radius: 10px;
+    text-decoration: none
+}
+
+.input button {
+    width: 400px;
+    height: 70px;
+    background-color: rgb(49, 168, 49);
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+.contatodiv h3 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+footer {
+    background-color: rgb(26, 173, 26);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+footer p {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+footer p span {
+    font-weight: 600;
+}
